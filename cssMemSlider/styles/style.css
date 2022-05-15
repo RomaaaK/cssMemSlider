@@ -20,6 +20,22 @@ body {
   padding: 0 1rem;
 }
 
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  margin-left: auto;
+  color: #71ABFE;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
 .slider {
   display: flex;
   flex-direction: column;
