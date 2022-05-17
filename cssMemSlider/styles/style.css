@@ -136,6 +136,10 @@ label:hover > span {
 }
 
 @media screen and (max-width: 701px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
   .slider__group {
     flex-direction: column;
   }
